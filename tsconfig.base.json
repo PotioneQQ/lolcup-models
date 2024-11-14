@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "noEmit": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "baseUrl": ".",
+      "paths": { "@zsl-lol-cup/*": ["libs/*/src"] }
+    },
+    "exclude": ["node_modules", "tmp"]
+  }
