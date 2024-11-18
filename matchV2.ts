@@ -11,6 +11,11 @@ export class Match extends Model {
         autoIncrement: true,
     })
     id: number;
+
+    @Column({
+        type: DataType.INTEGER
+    })
+    meetId: number;
     
     @Column({
         type: DataType.DATE

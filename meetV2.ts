@@ -36,12 +36,7 @@ export class Meet extends Model {
             type: DataType.INTEGER,
         })
         team2: number;
-
-        @Column({
-            type: DataType.ARRAY(DataType.STRING)
-        })
-        matchIds: string[];
-
+        
         @Column({
             type: DataType.INTEGER,
         })
