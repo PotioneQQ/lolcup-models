@@ -1,0 +1,2 @@
+zrobic jsona z kazdym eventem do wykresowki
+i zrobic do niego model
