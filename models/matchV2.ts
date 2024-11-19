@@ -18,6 +18,11 @@ export class Match extends Model {
     meetId: number;
     
     @Column({
+        type: DataType.STRING
+    })
+    matchId: string;
+    
+    @Column({
         type: DataType.DATE
     })
     matchStartTime: Date;
@@ -26,11 +31,6 @@ export class Match extends Model {
         type: DataType.INTEGER
     })
     matchDuration: number;
-
-    @Column({
-        type: DataType.STRING
-    })
-    matchId: string;
 
     @Column({
         type: DataType.STRING
