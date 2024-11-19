@@ -1,2 +1,2 @@
-zrobic jsona z kazdym eventem do wykresowki (typu skrocona wersja killi, tak zeby bylo mozna wrzucic to jako lista np. kupionych itemow na strone/grafike)
+zrobic jsona z kazdym eventem do wykresowki (typu skrocona wersja killi, tak zeby bylo mozna wrzucic to jako lista np. kupionych itemow na strone/grafike; patrz porofessor)
 i zrobic do niego model
