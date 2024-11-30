@@ -1,0 +1,3 @@
+plan:
+zapisujemy eventy dla meczu w formie tablicy z jsonami
+osobno zapisujemy statystyki graczy do wykresów

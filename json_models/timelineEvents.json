@@ -1,3 +1,49 @@
 {
-    
+    "kill":{
+        "type": "CHAMPION_KILL",
+        "timestamp": 0,
+        "killerId": 0,
+        "victimId": 0,
+        "assistingParticipantIds": [0]
+    },
+    "itemPurchase":{
+        "type": "ITEM_PURCHASED",
+        "timestamp": 0,
+        "participanId": 0,
+        "itemId": 0
+    },
+    "towerKill":{
+        "type": "BUILDING_KILL",
+        "buildingType": "TOWER_BUILDING",
+        "killerId": 0,
+        "timestamp": 0,
+        "teamId": 0,
+        "towerType": "",
+        "laneType": ""
+    },
+    "inhibKill":{
+        "type": "BUILDING_KILL",
+        "buildingType": "INHIBITOR_BUILDING",
+        "killerId": 0,
+        "timestamp": 0,
+        "teamId": 0,
+        "laneType": ""
+    },
+    "eliteKill":{
+        "type": "ELITE_MONSTER_KILL",
+        "monsterType": "",
+        "killerTeamId": 0,
+        "killerId": 0,
+        "assistingParticipantIds": [0],
+        "timestamp": 0
+    },
+    "dragonKill":{
+        "type": "ELITE_MONSTER_KILL",
+        "monsterType": "DRAGON",
+        "monsterSubType": "",
+        "killerTeamId": 0,
+        "killerId": 0,
+        "assistingParticipantIds": [0],
+        "timestamp": 0
+    }
 }

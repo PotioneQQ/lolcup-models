@@ -46,9 +46,4 @@ export class SnapshotStats extends Model {
         type: DataType.INTEGER
     })
     totalDamageTaken: number;
-
-    @Column({
-        type: DataType.JSON
-    })
-    events: object;
 }
